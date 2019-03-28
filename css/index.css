@@ -304,6 +304,10 @@ header .container {
     max-width: 75%;
   }
 }
+.contact-container h2 {
+  display: flex;
+  justify-content: center;
+}
 input[type=text],
 select,
 textarea {
