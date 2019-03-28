@@ -2,6 +2,7 @@
 
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
   <title>Fun Bus Travel Agency - Solution</title>
@@ -15,8 +16,32 @@
 </head>
 
 <body>
-
-  
+    <div class="head-container">
+        <div>
+            <h1>Fun Bus</h1>
+        </div>
+        <nav>
+          <a href="#"> Home </a>
+          <a href="#"> About Us </a>
+          <a href="#"> Blog </a>
+          <a href="#contactus"> Contact </a>
+        </nav>
+      </div>
+      
+      <header class="container">
+      
+        <div class="bus">
+          <img src="img/fun-bus.jpg">
+        </div>
+      
+        <br>
+      
+        <div class="welcome">
+          <h2> Welcome To Fun Bus</h2>
+            <p>Adventure webdesign pretty design design, excursion cute WordPress blogger design webdesign adventure. Pretty simple traveling fun WordPress wanderlust darn simple organized.</p> 
+        </div>
+      
+      </header>
      
   <div class="container home">
    
@@ -64,8 +89,55 @@
         <div class="btn">Sign Me Up!</div>
       </div>
     </section>
-  </div><!-- container -->
 
+    <!--contact form-->
+    <div class="contact-container">
+        <form action="/action_page.php">
+         <h2><a name="contactus">
+          Contact us</h2></a>
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Full Name:</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your full name here">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email:</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your email here">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="Vacation-Packages">Vacation Packages:</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="Bahamas">Bahamas</option>
+                <option value="Belize">Belize</option>
+                <option value="Chile">Chile</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Special Instructions</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+
+  </div><!-- container -->
   <footer class="footer">
     <p>Copyright Fun Bus 2018</p>
   </footer>
